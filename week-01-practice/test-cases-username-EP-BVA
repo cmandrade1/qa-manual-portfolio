@@ -63,3 +63,31 @@
 ​Leave the Password field completely empty.
 ​Click Login.
 ​Expected Result: Red error banner appears stating: "Epic sadface: Password is required"
+
+
+Test Case 7: Just Below Minimum Boundary (2 Characters)
+​Test Case ID: TC-BVA-01
+​Test Title: Validate login behavior with username below minimum length (2 characters)
+​Input Username: "ab" (Length: 2)
+​Input Password: "secret_sauce"
+​Theoretical Expected Result: System displays length validation error: "Username must be at least 3 characters."
+​Actual SauceDemo Result: System displays authentication error: "Epic sadface: Username and password do not match any user in this service"
+​Status: Fail (SauceDemo does not perform client-side min-length validation; it attempts backend authentication directly)
+
+​Test Case 8: Exact Minimum Boundary (3 Characters)
+​Test Case ID: TC-BVA-02
+​Test Title: Validate login behavior at exact minimum length boundary (3 characters)
+​Input Username: "cat" (Length: 3)
+​Input Password: "secret_sauce"
+​Theoretical Expected Result: Username length is accepted as valid input format.
+​Actual SauceDemo Result: System allows form submission and attempts login, displaying "Epic sadface: Username and password do not match any user in this service" because "cat" is not a registered user account.
+​Status: Pass (Input length format is processed without throwing a character length error)
+
+​Test Case 9: Just Above Maximum Boundary (21 Characters)
+​Test Case ID: TC-BVA-03
+​Test Title: Validate login behavior with username exceeding maximum length (21 characters)
+​Input Username: "a1b2c3d4e5f6g7h8i9j0k" (Length: 21)
+​Input Password: "secret_sauce"
+​Theoretical Expected Result: System truncates input at 20 characters or displays error: "Username cannot exceed 20 characters."
+​Actual SauceDemo Result: Field allows typing all 21 characters and displays standard error: "Epic sadface: Username and password do not match any user in this service" upon submission.
+​Status: Fail (No max-length truncation or character limit warning is enforced on the UI field)
