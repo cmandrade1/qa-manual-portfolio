@@ -1,5 +1,5 @@
 ​Test Case 1: Valid User Login (EP1 - Valid Class)
-​Test Case ID: TC_SD_01
+​Test Case ID: TC-SD-01
 ​Title: Verify successful login with valid credentials
 ​Input Data: Username = standard_user, Password = secret_sauce
 ​Steps:
@@ -10,7 +10,7 @@
 ​Expected Result: Page redirects to the inventory catalog (/inventory.html).
 
 ​Test Case 2: Locked Out User (EP2 - Business Rule Exception)
-​Test Case ID: TC_SD_02
+​Test Case ID: TC-SD-02
 ​Title: Verify error message for a locked-out user account
 ​Input Data: Username = locked_out_user, Password = secret_sauce
 ​Steps:
@@ -21,7 +21,7 @@
 ​Expected Result: Red error banner appears stating: "Epic sadface: Sorry, this user has been locked out."
 
 ​Test Case 3: Unregistered/Invalid Username (EP3 - Invalid Class)
-​Test Case ID: TC_SD_03
+​Test Case ID: TC-SD-03
 ​Title: Verify error message when entering an unregistered username
 ​Input Data: Username = random_invalid_user, Password = secret_sauce
 ​Steps:
@@ -32,7 +32,7 @@
 ​Expected Result: Red error banner appears stating: "Epic sadface: Username and password do not match any user in this service"
 
 ​Test Case 4: Incorrect Password (EP4 - Invalid Class)
-​Test Case ID: TC_SD_04
+​Test Case ID: TC-SD-04
 ​Title: Verify error message when entering an incorrect password
 ​Input Data: Username = standard_user, Password = wrong_password_123
 ​Steps:
@@ -43,7 +43,7 @@
 ​Expected Result: Red error banner appears stating: "Epic sadface: Username and password do not match any user in this service"
 
 ​Test Case 5: Empty Username Field (EP5 - Missing Input Class)
-​Test Case ID: TC_SD_05
+​Test Case ID: TC-SD-05
 ​Title: Verify validation error when the username field is left empty
 ​Input Data: Username = [BLANK], Password = secret_sauce
 ​Steps:
@@ -54,7 +54,7 @@
 ​Expected Result: Red error banner appears stating: "Epic sadface: Username is required"
 
 ​Test Case 6: Empty Password Field (EP6 - Missing Input Class)
-​Test Case ID: TC_SD_06
+​Test Case ID: TC-SD-06
 ​Title: Verify validation error when the password field is left empty
 ​Input Data: Username = standard_user, Password = [BLANK]
 ​Steps:
