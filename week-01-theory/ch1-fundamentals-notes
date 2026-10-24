@@ -1,1 +1,34 @@
+Dual Nature: Static and Dynamic
+Static activities (analyzing requirements, code and design without execution)
+Dynamic activities (trigger failures whilst running software) 
 
+Core Test Objectives:
+Key goals include preventing defects, verifying specific requirements, validating user/stakeholder expectations, building confidence in product quality and reducing quality risks.
+
+Context-Dependent Goals:
+Test objectives vary depending on project context, test level (e.g., maximizing code coverage in component testing vs. assessing release readiness in acceptance testing) and the chosen software development lifecycle. 
+
+Testing vs. Debugging:
+Testing is the process that discovers failures and identifies defects.
+Debugging is a separate development activity that specifically analyzes, locates, and fixes the root causes of those defects.
+
+Verification and Validation:
+Testing serves to execute both verification (confirming a system complies with specified requirements) and validation (confirming a system meets user and stakeholder needs in its operational environment).
+
+
+The Seven Testing Principles
+ 
+1. TESTING SHOWS THE PRESENCE OF DEFECTS, NOT THEIR ABSENCE:
+   Testing can demonstrate flaws exist but cannot prove software is defect-free.
+2. EXHAUSTIVE TESTING IS IMPOSSIBLE:
+   Testing every single combination of inputs and conditions is unfeasible beyond trivial systems, requires risk-based testing and prioritization instead.
+3. EARLY TESTING SAVES TIME AND MONEY:
+   Initiating test activities early in the SDLC helps catch requirements and design defects before multiplying in cost.
+4. DEFECTS CLUSTER TOGETHER:
+   A small subset of modules or components typically account for the majority of discovered defects (the Pareto Principle).
+5. PESTICIDE PARADOX:
+   Running the exact same test cases repeatedly will eventually stop uncovering new bugs. Test suites must be regularly reviewed, and expanded.
+7. TESTING IS CONTEXT DEPENDENT:
+   The approach to testing varies significantly based on the project type, industry domain, risk level, and technology stack (e.g., a medical device vs. a casual mobile game).
+8. ABSENCE-OF-ERRORS FALLACY:
+   Fixing all identified bugs is useless if the system itself is difficult to use, doesn't solve the user's problem, or fails to meet stakeholder needs.
