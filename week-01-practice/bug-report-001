@@ -1,0 +1,29 @@
+Bug Report: Incorrect Product Image Displayed for Sauce Labs Backpack
+
+​Date: October 23, 2026
+
+​Environment: Opera / Firefox (Responsive Viewport)
+
+​URL: https://www.saucedemo.com/  
+
+​Description
+​The product inventory page displays an incorrect asset—specifically a photograph of a dog with a tennis ball—for the Sauce Labs Backpack item instead of the actual product image.  
+
+​Steps to Reproduce
+​1. Navigate to https://www.saucedemo.com/.  
+​2. Log in using test credentials (problem_user / secret_sauce).
+​3. View the product inventory catalog on the main dashboard.  
+​4. Observe the thumbnail image rendered next to the "Sauce Labs Backpack" title.  
+
+​Expected Result
+​The "Sauce Labs Backpack" entry should display a product photo of the standard grey/black Sauce Labs backpack.
+
+​Actual Result
+​The "Sauce Labs Backpack" entry incorrectly renders an unrelated photo of a dog.  
+
+​Severity / Priority
+​Severity: Low / Minor (UI asset mapping / visual glitch)
+​Priority: Low
+
+​Attachments
+​Attached screenshot showing the incorrect dog thumbnail under the backpack title.  
