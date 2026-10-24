@@ -28,7 +28,7 @@ The Seven Testing Principles
    A small subset of modules or components typically account for the majority of discovered defects (the Pareto Principle).
 5. PESTICIDE PARADOX:
    Running the exact same test cases repeatedly will eventually stop uncovering new bugs. Test suites must be regularly reviewed, and expanded.
-7. TESTING IS CONTEXT DEPENDENT:
+6. TESTING IS CONTEXT DEPENDENT:
    The approach to testing varies significantly based on the project type, industry domain, risk level, and technology stack (e.g., a medical device vs. a casual mobile game).
-8. ABSENCE-OF-ERRORS FALLACY:
+7. ABSENCE-OF-ERRORS FALLACY:
    Fixing all identified bugs is useless if the system itself is difficult to use, doesn't solve the user's problem, or fails to meet stakeholder needs.
