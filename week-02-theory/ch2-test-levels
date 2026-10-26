@@ -1,7 +1,7 @@
 Component: 
 Tests hardware modules or software component focusing on logic, pure function and algorithms.
 Integration:
-Tests interfaces and interactions of components and systems.
+Tests data flow interfaces and interactions of components or systems.
 System:
 Tests the integrated systems requirements as a whole focusing on end-to-end behavior.
 Acceptance:
