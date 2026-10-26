@@ -1,0 +1,8 @@
+Component: 
+Tests hardware modules or software component focusing on logic, pure function and algorithms.
+Integration:
+Tests interfaces and interactions of components and systems.
+System:
+Tests the integrated systems requirements as a whole focusing on end-to-end behavior.
+Acceptance:
+Tests whether up to standards of user requirements and business rule validation.
