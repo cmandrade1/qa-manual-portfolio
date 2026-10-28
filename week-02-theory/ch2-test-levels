@@ -1,8 +1,17 @@
-Component: 
-Tests hardware modules or software component focusing on logic, pure function and algorithms.
-Integration:
-Tests data flow interfaces and interactions of components or systems.
-System:
-Tests the integrated systems requirements as a whole focusing on end-to-end behavior.
-Acceptance:
-Tests whether up to standards of user requirements and business rule validation.
+## Component (Unit)
+Tests one function/class in isolation. Manual QA rarely does this — developers do.
+Example: A "calculateDiscount()" function returns 10% for Gold members.
+
+## Integration
+Tests data flow between components. **Manual QA lives here.**
+Example: Postman sends POST /users → DBeaver confirms the row exists in the users table.
+
+## System
+Tests the whole app end-to-end against requirements.
+Example: Complete checkout on an e-commerce site: add to cart → pay → confirm order email.
+
+## Acceptance
+Tests business/user needs. Often UAT.
+Example: A finance user confirms an invoice can be generated and exported to PDF.
+
+**Where I spend most time as manual QA:** Integration + System.
