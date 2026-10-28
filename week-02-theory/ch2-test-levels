@@ -15,3 +15,15 @@ Tests business/user needs. Often UAT.
 Example: A finance user confirms an invoice can be generated and exported to PDF.
 
 **Where I spend most time as manual QA:** Integration + System.
+
+# SDLC Models — My Role
+
+## Waterfall / V-Model
+- Test planning starts at requirements phase.
+- I receive a full requirements doc and write test cases before code exists.
+- Execution happens after development is "done."
+
+## Agile
+- Testing is continuous in every 2-week sprint.
+- I write test cases from user stories, test as features are built, and log bugs immediately.
+- My role shifts from "gatekeeper at the end" to "collaborator throughout."
