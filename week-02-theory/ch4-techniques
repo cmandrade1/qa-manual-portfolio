@@ -1,0 +1,26 @@
+# Decision Table Testing
+
+**When to use:** Output depends on combinations of conditions.
+
+## Example: Login Feature (3 conditions)
+  
+Conditions:
+- C1: Username exists?
+- C2: Password correct?
+- C3: Account active?
+
+Actions:
+- A1: Login success
+- A2: Show error "Invalid credentials"
+- A3: Show error "Account locked"
+
+| Rule | C1 | C2 | C3 | Action |
+|------|----|----|----|--------|
+| R1 | Y | Y | Y | A1 |
+| R2 | Y | Y | N | A3 |
+| R3 | Y | N | Y | A2 |
+| R4 | Y | N | N | A2 |
+| R5 | N | - | - | A2 |
+| R6 | - | - | - | A2 |
+
+Note: R5/R6 are collapsed because if username doesn't exist, other conditions don't matter.
